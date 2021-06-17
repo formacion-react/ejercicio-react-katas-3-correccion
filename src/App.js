@@ -1,7 +1,8 @@
+import { FaThumbsDown, FaThumbsUp } from "react-icons/fa";
 import { FlipIcon } from "./componentes/FlipIcon";
 
 function App() {
-  return <FlipIcon icono1="fa-thumbs-up" icono2="fa-thumbs-down" />;
+  return <FlipIcon Componente1={FaThumbsUp} Componente2={FaThumbsDown} />;
 }
 
 export default App;
